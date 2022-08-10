@@ -1,0 +1,88 @@
+body{
+    background-color: antiquewhite;
+}
+
+table {
+    border:1px solid black;
+    margin-left: 250px;
+    font-size: 18px;
+    margin: 20px;
+    background-color: beige;
+
+    
+}
+
+.input{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.input > button{
+    margin-left: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.tr{
+    border: 1px solid black;
+    font-family: Georgia, serif;
+}
+
+
+.header{
+    border:1px solid black;
+    /* margin-left: 750px; */
+    font-size: 18px;
+    margin: 20px;
+    height: 20px;
+    
+}
+
+.id{
+    position: relative;
+    left: -30px;
+}
+
+.name{
+    position: relative;
+    left: -50px;
+}
+
+.yio{
+    position: relative;
+    left: 10px;
+}
+
+.vp{
+    position: relative;
+    left: -270px;
+}
+.main_table > table{
+   width: 80%;
+
+}
+
+.second_table > table{
+    width: 80%;
+}
+
+.name {
+    width: 10px;
+    height: 10px;
+}
+#vpDropdown{
+    width: 20px;
+    border: none;
+    background: transparent;
+}
+/* .reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+} */
+
